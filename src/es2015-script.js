@@ -98,6 +98,8 @@ new x; new new x; new new x();
 new new x().a; new new x()[0];
 
 
+123;
+'456';
 x++; x--;
 
 delete void typeof+-~!x; ++x; --x;
