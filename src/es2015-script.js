@@ -97,9 +97,12 @@ new x[0](); new x.a(); new x[0].a(); new x.a[0]();
 new x; new new x; new new x();
 new new x().a; new new x()[0];
 
-
 123;
 '456';
+
+x += 100;
+x -= 100;
+
 x++; x--;
 
 delete void typeof+-~!x; ++x; --x;
