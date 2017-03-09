@@ -97,10 +97,10 @@ new x[0](); new x.a(); new x[0].a(); new x.a[0]();
 new x; new new x; new new x();
 new new x().a; new new x()[0];
 
-x(); x()(); x(x); x(x, x);
-x.a().a(); x[0]()[0](); x().a[0]();
-x(...[0,1,], ...[], ...function* f(){ return yield 2; });
-x`a`; x`0${1}2`;
+a;
+b;
+c;
+d;
 
 x++; x--;
 
