@@ -1,10 +1,18 @@
 # git-practice-base
 
-A git repositorey to practice git controls.
+A git repositorey to practice some git controls.
+
+## Before Start
+
+Fork this repo to your account.
 
 ## Basic
 
+Clone this repo:
+
     git clone https://github.com/othree/git-practice-base.git
+
+Replace `othree` with your account id.
 
 Edit `README.md`. Then commit.
 
@@ -20,8 +28,27 @@ zsh:
 
     git reset --soft HEAD\^
 
-git reset can used to edit entire commit.
+Git reset can used to edit entire commit.
 
-## merge
+## Merge
+
+Fecth and track all branches: <https://gist.github.com/othree/d9cefd1c4b5bb667d2690330231d5fff>
+
+Or `checkout` before merge/rebase...
+
+	git co for-fast-forward
+
+Checkout `master`
+
+    git co master
+
+Fast forward merge:
+
+    git merge for-fast-forward
+
+None fast forward merge:
+
+    git merge for-no-fast-forward --no-ff
+
 
 ## Rebase
