@@ -80,3 +80,9 @@ Try `rebase continue --skip`:
 Saw conflicts, and skip changes(Use HEAD reversion, a.k.a master):
 
     git rebase --skip
+
+Undo a rebase
+
+    git reset --hard ORIG_HEAD
+
+## Remove Sensitive Data
