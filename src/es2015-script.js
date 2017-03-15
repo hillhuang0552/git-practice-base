@@ -261,4 +261,4 @@ class B extends new A {
   set g(a){} set "h"(a){} set 3(a){} set [3](a){}
   get if() {} set if(f) {}
 }
-class C extends B { "constructor"(){ super(); } }
+
